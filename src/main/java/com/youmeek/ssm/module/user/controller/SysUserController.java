@@ -40,12 +40,15 @@ public class SysUserController {
 	@RequestMapping("/test-logback")
 	@ResponseBody
 	public Date testLogback(){
+		
 		LOG.trace("-----------------------------------trace");
 		LOG.debug("-----------------------------------debug");
 		LOG.info("-----------------------------------info");
 		LOG.warn("-----------------------------------warn");
 		LOG.error("-----------------------------------error");
 		return new Date();
+
+
 	}
 	
 
