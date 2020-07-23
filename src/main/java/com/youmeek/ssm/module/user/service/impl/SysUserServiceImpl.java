@@ -13,12 +13,12 @@ public class SysUserServiceImpl implements SysUserService {
 	@Resource
 	private SysUserMapper sysUserMapper;
 
-//2335559000000000111111111xxxxx
+//
 	@Override
 	public SysUser getById(Long id) {
 
-		//update                   33   88 999  10101444 8899 00  112  888  9999 779
+		//update
 		return sysUserMapper.selectByPrimaryKey(id);
-//73434542323423
+//
 	}
 }
