@@ -17,8 +17,8 @@ public class SysUserServiceImpl implements SysUserService {
 	@Override
 	public SysUser getById(Long id) {
 
-		//update 1  2
+		//update 1  2 3
 		return sysUserMapper.selectByPrimaryKey(id);
-//
+//1
 	}
 }
