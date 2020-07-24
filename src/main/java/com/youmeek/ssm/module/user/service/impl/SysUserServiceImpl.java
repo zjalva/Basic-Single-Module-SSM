@@ -19,6 +19,6 @@ public class SysUserServiceImpl implements SysUserService {
 
 		//update 1  2 3
 		return sysUserMapper.selectByPrimaryKey(id);
-//1
+//1 2
 	}
 }
